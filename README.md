@@ -1,6 +1,8 @@
-# Ciencia-_de_datos_google_playstore
+# 📱 Ciencia de Datos - Google Play Store
 
-##  Contenido
+> Modelo de Machine Learning supervisado y no supervisado para predecir si una app será popular (>1M instalaciones) en la Google Play Store.
+
+## 📋 Contenido
 
 - [Descripción](#descripción)
 - [Estructura del Proyecto](#estructura-del-proyecto)
@@ -12,7 +14,7 @@
 
 ---
 
-##  Descripción
+## 📝 Descripción
 
 Este proyecto implementa un **análisis exhaustivo** del dataset de Google Play Store con el objetivo de:
 
@@ -29,10 +31,10 @@ Predecir si una app será **popular** (>1,000,000 instalaciones) usando:
 
 ---
 
-##  Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
-proyecto_googleplay/
+Ciencia-_de_datos_google_playstore/
 ├── proyecto_googleplay_EV2_final.ipynb    # Notebook principal (3 partes)
 ├── app_dashboard.py                       # Dashboard interactivo (Dash + Plotly)
 ├── googleplaystore_clean.csv              # Dataset (9,438 apps)
@@ -52,25 +54,25 @@ proyecto_googleplay/
 
 ---
 
-##  Instalación
+## 🔧 Instalación
 
 ### Requisitos Previos
 - Python 3.10 o superior
-- pip o conda
+- pip
 
-### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/tu-usuario/proyecto-googleplay.git
-cd proyecto-googleplay
-```
-
-### 2. Instalar Dependencias
+### Instalar Dependencias
 ```bash
 pip install -r requirements.txt
 ```
 
+O instala manualmente:
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn plotly dash joblib scipy
+```
 
-##  Uso
+---
+
+## 🚀 Uso
 
 ### Opción 1: Ejecutar el Notebook Completo
 ```bash
@@ -91,18 +93,18 @@ El dashboard incluye:
 
 ---
 
-##  Resultados
+## 📊 Resultados
 
 ### Métricas de Evaluación
 
 | Modelo | Accuracy | F1 Score | ROC-AUC |
 |--------|----------|----------|---------|
-| **Random Forest**  | **95.44%** | **0.8892** | **0.9888** |
+| **Random Forest** ⭐ | **95.44%** | **0.8892** | **0.9888** |
 | Regresión Logística | 95.39% | 0.8889 | 0.9898 |
 | SVM | 94.81% | 0.8740 | 0.9881 |
 | Decision Tree | 93.59% | 0.8455 | 0.9014 |
 
-###  Mejor Modelo: Random Forest Optimizado
+### 🏆 Mejor Modelo: Random Forest Optimizado
 - **Accuracy**: 95.44%
 - **F1 Score**: 0.8892 (balance perfecto entre precisión y recall)
 - **ROC-AUC**: 0.9888 (casi perfecto)
@@ -130,7 +132,7 @@ Las variables más predictivas son:
 
 ---
 
-## Key Findings
+## 📌 Key Findings
 
 ### Datos Exploratorios
 - **9,438 apps** analizadas del dataset de 2018
@@ -152,16 +154,16 @@ K-Means descubrió 3 grupos naturales **sin usar la etiqueta de popularidad**:
 
 ---
 
-## Conclusiones
+## 💡 Conclusiones
 
-###  Lo que Logramos
+### ✅ Lo que Logramos
 
 1. **Modelo robusto**: Random Forest logra 95.44% de accuracy con excelente generalización
 2. **Características significativas**: `log_reviews`, tamaño, y actualización son clave
 3. **Estructura en los datos**: K-Means encontró patrones naturales relacionados con popularidad
 4. **Viabilidad**: El problema es clasificable con estructura clara (ROC-AUC > 0.98)
 
-###  Recomendaciones
+### 🎯 Recomendaciones
 
 - **Para startups**: Enfoque en categorías FAMILY, GAME, TOOLS (más volumen)
 - **Para optimizar**: Mantener actualizaciones frecuentes y acumular reseñas
@@ -169,7 +171,7 @@ K-Means descubrió 3 grupos naturales **sin usar la etiqueta de popularidad**:
 
 ---
 
-## Limitaciones
+## ⚠️ Limitaciones
 
 1. **Datos antiguos**: Dataset es de 2018. El mercado de apps cambió significativamente desde entonces.
 
@@ -184,7 +186,7 @@ K-Means descubrió 3 grupos naturales **sin usar la etiqueta de popularidad**:
 
 ---
 
-##  Dependencias
+## 📦 Dependencias
 
 ```python
 pandas==3.0.2              # Manipulación de datos
@@ -260,14 +262,28 @@ Raw Data (googleplaystore_clean.csv)
 [Dashboard Interactivo]
 ```
 
+---
 
+## 🤝 Contribuciones
 
-## 🙏 Agradecimientos
+Las contribuciones son bienvenidas. Por favor:
+1. Fork el proyecto
+2. Crea una rama (`git checkout -b feature/mejora`)
+3. Commit tus cambios (`git commit -m 'Agrega mejora'`)
+4. Push a la rama (`git push origin feature/mejora`)
+5. Abre un Pull Request
+
+---
+
+##  Agradecimientos
 
 - Dataset: [Google Play Store Apps](https://www.kaggle.com/datasets/lava18/google-play-store-apps)
 - Herramientas: scikit-learn, Plotly, Dash, pandas
 - Técnicas: Hands-on Machine Learning, scikit-learn documentation
 
+---
+
+**⭐ Si este proyecto te fue útil, no olvides darle una estrella!**
 
 ---
 
