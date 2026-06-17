@@ -1,4 +1,4 @@
-# 📱 Ciencia de Datos - Google Play Store
+#  Ciencia de Datos - Google Play Store
 
 > Modelo de Machine Learning supervisado y no supervisado para predecir si una app será popular (>1M instalaciones) en la Google Play Store.
 
