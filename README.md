@@ -99,7 +99,7 @@ El dashboard incluye:
 
 | Modelo | Accuracy | F1 Score | ROC-AUC |
 |--------|----------|----------|---------|
-| **Random Forest** ⭐ | **95.44%** | **0.8892** | **0.9888** |
+| **Random Forest**  | **95.44%** | **0.8892** | **0.9888** |
 | Regresión Logística | 95.39% | 0.8889 | 0.9898 |
 | SVM | 94.81% | 0.8740 | 0.9881 |
 | Decision Tree | 93.59% | 0.8455 | 0.9014 |
@@ -156,7 +156,7 @@ K-Means descubrió 3 grupos naturales **sin usar la etiqueta de popularidad**:
 
 ## 💡 Conclusiones
 
-### ✅ Lo que Logramos
+###  Lo que Logramos
 
 1. **Modelo robusto**: Random Forest logra 95.44% de accuracy con excelente generalización
 2. **Características significativas**: `log_reviews`, tamaño, y actualización son clave
@@ -207,7 +207,7 @@ scipy==1.17.1              # Funciones científicas
 ### Modelos Supervisados
 - **Regresión Logística**: Clasificación lineal, interpretable
 - **Decision Tree**: Reglas de decisión, fácil de explicar
-- **Random Forest**: Ensemble de árboles, robusto a overfitting ⭐
+- **Random Forest**: Ensemble de árboles, robusto a overfitting 
 - **SVM**: Margen máximo entre clases, efectivo en altas dimensiones
 
 ### Optimización
@@ -262,41 +262,11 @@ Raw Data (googleplaystore_clean.csv)
 [Dashboard Interactivo]
 ```
 
----
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama (`git checkout -b feature/mejora`)
-3. Commit tus cambios (`git commit -m 'Agrega mejora'`)
-4. Push a la rama (`git push origin feature/mejora`)
-5. Abre un Pull Request
-
----
-
 ##  Agradecimientos
 
 - Dataset: [Google Play Store Apps](https://www.kaggle.com/datasets/lava18/google-play-store-apps)
 - Herramientas: scikit-learn, Plotly, Dash, pandas
 - Técnicas: Hands-on Machine Learning, scikit-learn documentation
 
----
-
-**⭐ Si este proyecto te fue útil, no olvides darle una estrella!**
-
----
-
-## 📈 Roadmap Futuro
-
-- [ ] Actualizar a dataset 2024
-- [ ] Implementar Deep Learning (Neural Networks)
-- [ ] API REST para predicciones en tiempo real
-- [ ] Análisis de sentimiento de reviews
-- [ ] Predicción de trending apps
-- [ ] Deployment en Heroku/AWS
-- [ ] Interfaz mobile-friendly
-
----
 
 **Última actualización**: 17 de junio de 2026
