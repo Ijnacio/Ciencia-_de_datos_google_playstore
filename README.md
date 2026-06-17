@@ -9,7 +9,6 @@
 - [Resultados](#resultados)
 - [Conclusiones](#conclusiones)
 - [Limitaciones](#limitaciones)
-- [Autor](#autor)
 
 ---
 
